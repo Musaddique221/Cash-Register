@@ -1,0 +1,75 @@
+
+:root{
+    --primary-color : #1e293b
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lobster+Two:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,400;1,300;1,400;1,500&family=Roboto:ital@1&display=swap');
+
+body{
+   background-color:#9ca3af ;
+   color:#9ca3af
+}
+.container{
+   font-family: 'Montserrat', sans-serif;
+   background-color: var(--primary-color);
+   margin: auto;
+   display: flex;
+   flex-direction: column;  
+   width: 65vh;
+}
+.heading{
+   padding: 1rem;
+   margin: auto;
+}
+.descripton{
+   padding: 1rem;
+   margin: auto;
+}
+label{
+   margin: auto;
+   padding: 1rem;
+}
+#bill-amount{
+   margin: 0rem 1rem 0rem 1rem;
+   padding: 1rem
+}
+#cash-given{
+   margin: 0rem 1rem 2rem 1rem;
+   padding: 1rem
+}
+#check-button{
+   font-size: 17px;
+   color: #1e293b ;
+   background-color: #9ca3af;
+   margin: auto;
+   padding: 10px 10px 10px 10px;
+   width: 100px;
+}
+.caption{
+   margin: 1rem 1rem 1.3rem 1rem;
+}
+.change-table,th,td{
+   margin: 0rem 1rem 2rem 1rem;;
+   text-align: center;
+   border-spacing: 0px;
+   border: 1px solid black
+}
+
+.number-of-notes,th {
+   height: 10px;
+   width: 120px;
+   padding: 0.2rem;
+   background-color: #9ca3af ;
+   color: var(--primary-color) ;
+}
+.number-of-notes,td{
+   height: 10px;
+   width: 80px;
+}
+.note-available{
+   color: var(--primary-color);
+   background-color: #9ca3af;
+}
+#error-message{
+    margin: 1rem;
+   text-align: center;
+}
